@@ -7,15 +7,13 @@ let totalImages = 0;
 let photosArray = [];
 
 // Unsplash API
-// const quer = 'flower';
-// const orient = 'squarish';
-
 const count = 30;
 const pic_orientation = 'landscape'
 const query = 'flower'
 const apiKey = '4ci_tb7O-wAfBL2VfTAb82QmqfKr57XyUsmEq2yk6uA';
 
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}&orientation=${pic_orientation}&query=${query}`;
+
 
 // Check if all images loaded
 function imageLoaded() {
